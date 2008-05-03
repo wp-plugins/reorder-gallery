@@ -48,13 +48,13 @@ class wpReorderGallery
     public function __construct()
     {
     	//To work with JS, the items need position:static; which they don't have
-//        $jsDir = get_option('siteurl') . '/wp-content/plugins/reorder-gallery/js/';
+        $jsDir = get_option('siteurl') . '/wp-content/plugins/reorder-gallery/js/';
 
-//        wp_register_script('reorderGallery', "{$jsDir}reorder-gallery.js", array( 'interface' ), '0.0.1');
+        wp_register_script('reorderGallery', "{$jsDir}reorder-gallery.js", array( 'interface' ), '0.0.1');
     }
 
     public function addJS() {
-//    	wp_enqueue_script('reorderGallery');
+    	wp_enqueue_script('reorderGallery');
     }
 
     public function attachment_fields_to_edit($form_fields, $post) {
