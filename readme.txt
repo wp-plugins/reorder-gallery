@@ -1,4 +1,4 @@
-=== Twitter Widget Pro ===
+=== Reorder Gallery ===
 Contributors: aaroncampbell
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal%40xavisys%2ecom&item_name=Reorder%20Gallery%20Plugin&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
 Tags: gallery, photos, order, reorder
