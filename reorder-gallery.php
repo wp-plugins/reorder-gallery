@@ -1,15 +1,18 @@
 <?php
 /**
  * Plugin Name: Reorder Gallery
- * Plugin URI: http://xavisys.com/
- * Description: Lets you reorder gallery items with drag and drop
- * Version: 0.1.0
+ * Plugin URI: http://xavisys.com/wordpress-reorder-gallery-plugin/
+ * Description: Lets you reorder gallery items with the ease of drag and drop
+ * Version: 1.0.0
  * Author: Aaron D. Campbell
  * Author URI: http://xavisys.com/
  */
 
 /**
  * Changelog:
+ * 05/15/2008: 1.0.0
+ * 	- Added the drag and drop functionality
+ *
  * 05/02/2008: 0.1.0
  * 	- Added to Wordpress.org
  *
@@ -50,7 +53,7 @@ class wpReorderGallery
     	//To work with JS, the items need position:static; which they don't have
         $jsDir = get_option('siteurl') . '/wp-content/plugins/reorder-gallery/js/';
 
-        wp_register_script('reorderGallery', "{$jsDir}reorder-gallery.js", array( 'interface' ), '0.0.1');
+        wp_register_script('reorderGallery', "{$jsDir}reorder-gallery.js", array( 'interface' ), '1.0.1');
     }
 
     public function addJS() {

@@ -4,13 +4,15 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal%4
 Tags: gallery, photos, order, reorder
 Requires at least: 2.5
 Tested up to: 2.5.2
-Stable tag: 0.1.0
+Stable tag: 1.0.0
 
-Allows you to reorder your gallery images.
+Allows you to reorder your gallery images with the ease of drag and drop.
 
 == Description ==
 
-Adds an "Order" field to the images in your gallery, much like pages have, which
+Gives you the ability to simply drag and drop to reorganize your images how you
+want them to appear in your gallery.  If drag and drop isn't your thing, it also
+adds an "Order" field to the images in your gallery, much like pages have, which
 allows you to reorder them to display in whatever order you want.  Requires PHP5.
 
 == Installation ==
@@ -21,9 +23,13 @@ allows you to reorder them to display in whatever order you want.  Requires PHP5
 
 == Frequently Asked Questions ==
 
+= One I have them in the order I want them, what do I have to do? =
+
+Simply click the "Save all changes" button to save their order.
+
 = How do I change the order? =
 
-Each image will have an "Order" field.  The lower the number in that field, the earlier in the gallery it is.
+Each image will have an "Order" field.  The lower the number in that field, the earlier in the gallery it is.  If you use the drag and drop sorting, this field is updated for you.
 
 = What if some images have the same value? =
 
