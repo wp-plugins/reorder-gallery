@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Reorder Gallery
  * Plugin URI: http://xavisys.com/wordpress-reorder-gallery-plugin/
- * Description: Lets you reorder gallery items with the ease of drag and drop
+ * Description: Lets you reorder gallery items with the ease of drag and drop. Requires PHP5
  * Version: 1.0.0
  * Author: Aaron D. Campbell
  * Author URI: http://xavisys.com/
