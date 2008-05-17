@@ -6,7 +6,7 @@ Requires at least: 2.5
 Tested up to: 2.5.2
 Stable tag: 1.0.0
 
-Allows you to reorder your gallery images with the ease of drag and drop.
+Allows you to reorder your gallery images with the ease of drag and drop. Resquires PHP5.
 
 == Description ==
 
