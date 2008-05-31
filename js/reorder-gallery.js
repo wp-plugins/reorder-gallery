@@ -8,7 +8,7 @@ jQuery(function($) {
 		gallerySortable = $('#media-items').Sortable( {
 			accept: 'media-item',
 			helperclass: 'sorthelper',
-//			handle: 'img.pinkynail',
+			handle: 'div.filename',
 			onchange: galleryReorder,
 			onStop: gallerySortableInit
 		} );
@@ -23,7 +23,9 @@ jQuery(function($) {
 	// initialize sortable
 	gallerySortableInit();
 	$('#media-items .media-item').css({
-		position: 'static',
+		position: 'static'
+	});
+	$('#media-items .media-item div.filename').css({
 		cursor: 'move'
 	});
 });
