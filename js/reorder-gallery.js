@@ -4,11 +4,11 @@ jQuery(function($) {
 		try { // a hack to make sortables work in jQuery 1.2+ and IE7
 			$('#media-items').SortableDestroy();
 		} catch(e) {}
-		$('#media-items media-item').
+		$('#media-items .media-item').
 		gallerySortable = $('#media-items').Sortable( {
 			accept: 'media-item',
 			helperclass: 'sorthelper',
-//			handle: 'img.pinkynail',
+			handle: 'div.filename',
 			onchange: galleryReorder,
 			onStop: gallerySortableInit
 		} );
@@ -22,5 +22,10 @@ jQuery(function($) {
 
 	// initialize sortable
 	gallerySortableInit();
-
+	$('#media-items .media-item').css({
+		position: 'static'
+	});
+	$('#media-items .media-item div.filename').css({
+		cursor: 'move'
+	});
 });
